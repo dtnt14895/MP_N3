@@ -88,7 +88,6 @@ function updateUser($id, $fullname, $bio, $phone, $email, $photo, $pssword) {
     $sql .= ' phone = :phone,';
   }
   if ( !empty($email)) {
-    // var_dump(gettype($email));
     var_dump("hello");
 
     $sql .= ' email = :email,';
@@ -100,7 +99,6 @@ function updateUser($id, $fullname, $bio, $phone, $email, $photo, $pssword) {
     $sql .= ' pssword = :pssword,';
   }
 
-  // Remove the trailing comma if any
   $sql = rtrim($sql, ',');
 
   $sql .= ' WHERE id = :id';

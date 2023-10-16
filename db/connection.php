@@ -12,7 +12,6 @@ try{
   return $link;
 
  } catch (PDOException $e) {
-    // header('Location: /phpmotors/view/500.php');
     echo 'Error';
     exit;
   }

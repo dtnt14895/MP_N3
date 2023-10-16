@@ -22,18 +22,7 @@
     gap: 1.2em;
     margin: 0 1em;
 }
-
-/* .form-container:first-child {
-    padding-top: 2em;
-}
-
-.form-container:last-child {
-    padding-bottom: 2em;
-} */
-
-
 .form-container > h1, p {
-    /* text-align: left; */
     align-self: flex-start;
     max-width: 70%;
 }
